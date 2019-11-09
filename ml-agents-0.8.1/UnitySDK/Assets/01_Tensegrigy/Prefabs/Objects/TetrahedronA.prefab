@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1271032297815282072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3025616593248896568}
+  - component: {fileID: 6225992037458393408}
+  - component: {fileID: 4004208970454392603}
+  - component: {fileID: 397426825192610910}
+  m_Layer: 0
+  m_Name: TetraHedronA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3025616593248896568
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271032297815282072}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 4.67, z: -14.47}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6225992037458393408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271032297815282072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adc846f82a41a5342a8a2b954eac1729, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+    m_StringPrefab: {fileID: 114356257910708396, guid: de8130e70a5829f47aca03fcad37e929,
+      type: 3}
+    m_BarPrefab: {fileID: 114492842136531972, guid: 8db88dae898b9cc41a475dac81941237,
+      type: 3}
+    m_PointPrefab: {fileID: 114498444590021104, guid: 23a3f7cd8de93cc42b3224eeb98c036a,
+      type: 3}
+    m_Center: {fileID: 114428091239987172, guid: e86a31906d65797439102bac54cac264,
+      type: 3}
+  elements:
+    ConstructionPoints: []
+    EndPoints: []
+    Bars: []
+    Strings: []
+    center: {fileID: 0}
+  param:
+    spring: 100
+    damper: 50
+    PointSize: 0.03
+    BarThickness: 0.03
+    StringThickness: 0.01
+    CenterSize: 0.3
+    PreTenseParameter: 1
+  isBuilt: 0
+  physicsApplied: 0
+  isFreezed: 0
+  myType: 0
+  tetraPoints: []
+  radius: 3
+  offsetParameter: 0.839
+  ConnectedUnits: []
+--- !u!114 &4004208970454392603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271032297815282072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa3868e9fd157b043a7bc058f07a940e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildWithPhysics: 1
+--- !u!114 &397426825192610910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271032297815282072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 614ae29355718f8489ab6339cfaf3167, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

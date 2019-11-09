@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: ebbf1c8884ea76d43b78971568012994
+ScriptedImporter:
+  fileIDToRecycleName:
+    11400000: Assets/02_Tensegrigy/ML_AGENTS/Brain/TensiLearnBrain.nn
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 83221ad3db87f4b3b91b041047cb2bc5, type: 3}
